@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/english_ia.egg-info/PKG-INFO
+src/english_ia.egg-info/SOURCES.txt
+src/english_ia.egg-info/dependency_links.txt
+src/english_ia.egg-info/entry_points.txt
+src/english_ia.egg-info/requires.txt
+src/english_ia.egg-info/top_level.txt

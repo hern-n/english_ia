@@ -1,0 +1,6 @@
+cerebras_cloud_sdk
+groq
+google-genai
+python-dotenv
+rich
+pyperclip

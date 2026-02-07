@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "english_ia"
+version = "0.1.0"
+description = "Asistente de traducción de inglés"
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Dependencias (las pones aquí si quieres que se instalen automáticamente)
+dependencies = [
+    "cerebras_cloud_sdk",
+    "groq", 
+    "google-genai", 
+    "python-dotenv", 
+    "rich", 
+    "pyperclip"
+]
+
+[project.scripts]
+# Esto crea el comando "nexus" en la terminal
+ing = "english_ia.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nexus*"]

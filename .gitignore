@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.env.*
+*.env
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# pip
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Other files
+
+tasks.md
