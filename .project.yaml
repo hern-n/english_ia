@@ -1,0 +1,16 @@
+name: english_ia
+description: Asistente de traducción de inglés
+author: Hernán <holmedamartin@gmail.com>
+version: 0.1.0
+technologies:
+  - Python
+  - CLI
+  - AI
+repository: https://github.com/hern-n/english_ia.git
+license: MIT
+tags:
+  - ai
+  - cli
+  - translation
+  - agents
+lastModified: '2026-07-02T15:52:34.989Z'
